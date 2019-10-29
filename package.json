@@ -1,0 +1,19 @@
+{
+  "name": "element-mutator-lib",
+  "version": "1.0.0",
+  "description": "It is a wrapper around MutationObserver and it provide more convinient way to track DOM node mutations.",
+  "main": "ElementMutator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serj-kzv/element-mutator-lib.git"
+  },
+  "author": "serj.kzv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serj-kzv/element-mutator-lib/issues"
+  },
+  "homepage": "https://github.com/serj-kzv/element-mutator-lib#readme"
+}
