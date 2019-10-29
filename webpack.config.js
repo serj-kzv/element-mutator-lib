@@ -54,7 +54,7 @@ module.exports = (env, argv) => {
                     compress: {
                         drop_console: true,
                         drop_debugger: true // TODO: find out why it does not work
-                    }
+                    },
                 }
             })]
         };
@@ -66,7 +66,8 @@ module.exports = (env, argv) => {
             output: {
                 path: distDir,
                 filename: 'ElementMutator.js',
-                libraryTarget: 'commonjs-module',
+                library: 'ElementMutator',
+                libraryTarget:'umd'
             },
             plugins: backgroundPlugins,
             ...cfg
