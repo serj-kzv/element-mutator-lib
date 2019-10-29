@@ -66,8 +66,9 @@ module.exports = (env, argv) => {
             output: {
                 path: distDir,
                 filename: 'ElementMutator.js',
-                library: 'ElementMutator',
-                libraryTarget:'umd'
+                library: 'element-mutator-lib',
+                libraryTarget: 'umd',
+                umdNamedDefine: true
             },
             plugins: backgroundPlugins,
             ...cfg
