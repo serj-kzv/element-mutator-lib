@@ -66,7 +66,7 @@ module.exports = (env, argv) => {
             output: {
                 path: distDir,
                 filename: 'ElementMutator.js',
-                libraryTarget: 'commonjs2',
+                libraryTarget: 'commonjs-module',
             },
             plugins: backgroundPlugins,
             ...cfg
