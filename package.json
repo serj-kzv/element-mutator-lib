@@ -1,11 +1,10 @@
 {
   "name": "element-mutator-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It is a wrapper around MutationObserver and it provide more convenient way to track DOM node mutations.",
   "main": "/dist/ElementMutator.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "scripts": {
     "prod": "webpack --config webpack.config.js --mode production",
