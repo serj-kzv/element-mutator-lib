@@ -10,14 +10,14 @@ const elementMutator = new ElementMutator({attributeFilter: []}, (cfg, node, att
     elementMutator.stop(); // stop
 });
 ```
-**Example 2.** Track a concreate DOM node and all his descendants.
+**Example 2.** Track a specific DOM node and all his descendants (`<body>` body tag in that case).
 ```js
 const elementMutator = new ElementMutator({attributeFilter: [], node: document.body}, (cfg, node, attributeName) => {
     // do something
     elementMutator.stop(); // stop
 });
 ```
-**Example 3.** Track a concreate DOM node attributes.
+**Example 3.** Track a specific DOM node attributes (`href` attribute in that case).
 If `attributeName` is `undefined` then mutation is a non attribute mutation.
 ```js
 const elementMutator = new ElementMutator({attributeFilter: [href]}, (cfg, node, attributeName) => {
