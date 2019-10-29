@@ -1,5 +1,5 @@
 # Not for a production!
-It is my for my "home" project and it has not unit tests and it is my playground.
+It is for my "home" project and it has not unit tests and it is my playground.
 I strongly recommend to don't use it in production.
 
 # How to use
