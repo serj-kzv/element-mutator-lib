@@ -1,3 +1,7 @@
+# Not for a production!
+It is my for my "home" project and it has not unit tests and it is my playground.
+I strongly recommend to don't use it in production.
+
 # How to use
 **Example 1.** Run after page is loaded and track all DOM changes.
 ```js
